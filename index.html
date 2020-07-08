@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width">
+    <title>catgram</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="styles/cat_styles.css">
+</head>
+<body>
+<header class="main-header">
+    <h1 class="logo-title">catgram</h1>
+</header>
+<main class="main-content">
+    <div class="detail-container">
+        <img class="detail-image" src="images/cat3.jpg">
+        <span class="detail-title">The cat number three, Mademoiselle</span>
+        <button id="hide-button"onclick="hideDetails()">Hide details</button>
+    </div>
+    <ul class="thumbnails-list">
+        <li class="thumbnails-item">
+            <a href="images/cat1.jpg" data-detailed-text="The cat number one, Confusion">
+                <img class="thumbnails-image" src="images/cat1.jpg">
+                <span class="thumbnails-title">Confusion</span>
+            </a>
+        </li>
+        <li class="thumbnails-item">
+            <a href="images/cat2.jpg" data-detailed-text="The cat number two, Man of letters">
+                <img class="thumbnails-image" src="images/cat2.jpg">
+                <span class="thumbnails-title">Man of letters</span>
+            </a>
+        </li>
+        <li class="thumbnails-item">
+            <a href="images/cat3.jpg" data-detailed-text="The cat number three, Mademoiselle">
+                <img class="thumbnails-image" src="images/cat3.jpg">
+                <span class="thumbnails-title">Mademoiselle</span>
+            </a>
+        </li>
+        <li class="thumbnails-item">
+            <a href="images/cat4.jpg" data-detailed-text="The cat number four, Good-looker">
+                <img class="thumbnails-image" src="images/cat4.jpg">
+                <span class="thumbnails-title">Good-looker</span>
+            </a>
+        </li>
+        <li class="thumbnails-item">
+            <a href="images/cat5.jpg" data-detailed-text="The cat number five, Wings">
+                <img class="thumbnails-image" src="images/cat5.jpg">
+                <span class="thumbnails-title">Wings</span>
+            </a>
+        </li>
+    </ul>
+</main>
+<script src="scripts/index.js"></script>
+</body>
+</html>
